@@ -3,7 +3,14 @@ package com.jason.router;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
+import com.jason.router.annotation.Destination;
+
+@Destination(
+        url = "routerL//page-home",
+        description = "应用主页面"
+)
 public class MainActivity extends AppCompatActivity {
 
     @Override
