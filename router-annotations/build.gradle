@@ -1,0 +1,8 @@
+// 应用 java 插件
+plugins {
+    id 'java'
+}
+
+// 设置源码兼容性
+targetCompatibility = JavaVersion.VERSION_12
+sourceCompatibility = JavaVersion.VERSION_12

@@ -1,0 +1,32 @@
+plugins {
+    id 'groovy'
+    id 'maven-publish' //用于发布
+}
+
+repositories {
+    jcenter()
+    google()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+}
+
+
+publishing {
+    publications {
+        myLibrary(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            name = 'router-gradle-plugin'
+            url = '../repo'
+
+            group = 'com.jason.router'
+            version = '1.0.2'
+        }
+    }
+}
