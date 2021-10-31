@@ -8,7 +8,7 @@ import android.util.Log;
 import com.jason.router.annotation.Destination;
 
 @Destination(
-        url = "routerL//page-home",
+        url = "router://page-home",
         description = "应用主页面"
 )
 public class MainActivity extends AppCompatActivity {
