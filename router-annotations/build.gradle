@@ -6,3 +6,6 @@ plugins {
 // 设置源码兼容性
 targetCompatibility = JavaVersion.VERSION_12
 sourceCompatibility = JavaVersion.VERSION_12
+
+// 应用发布功能
+apply from: rootProject.file('maven-publish.gradle')

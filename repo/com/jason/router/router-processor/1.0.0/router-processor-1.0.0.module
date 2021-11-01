@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jason.router",
+    "module": "router-processor",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 12,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "router-processor-1.0.0.jar",
+          "url": "router-processor-1.0.0.jar",
+          "size": 3806,
+          "sha512": "f465a26bf57a91bcbedad1502e7efc21d8e90f93576aa770824b574f53dd2edf6c3ce7a1169da73f341af4871ef04799d32787ce4e04aac2c38f7a5026372b19",
+          "sha256": "1c07a2d65229692fd20798b2194d9d029c5355fdcc92907577d20ea4760a8ea5",
+          "sha1": "40e49238dfb877dc992434fde1c3ce53fb5475b9",
+          "md5": "02102dffcf2bab88d04e8f5eaf68b592"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 12,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.jason.router",
+          "module": "router-annotations",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service",
+          "version": {
+            "requires": "1.0-rc6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "router-processor-1.0.0.jar",
+          "url": "router-processor-1.0.0.jar",
+          "size": 3806,
+          "sha512": "f465a26bf57a91bcbedad1502e7efc21d8e90f93576aa770824b574f53dd2edf6c3ce7a1169da73f341af4871ef04799d32787ce4e04aac2c38f7a5026372b19",
+          "sha256": "1c07a2d65229692fd20798b2194d9d029c5355fdcc92907577d20ea4760a8ea5",
+          "sha1": "40e49238dfb877dc992434fde1c3ce53fb5475b9",
+          "md5": "02102dffcf2bab88d04e8f5eaf68b592"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jason.router",
+    "module": "router-annotations",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 12,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "router-annotations-1.0.0.jar",
+          "url": "router-annotations-1.0.0.jar",
+          "size": 1131,
+          "sha512": "4f07385f3d5b19566d803d8fe960e5aabb2845245ae537a9bd178ba41cc342c04fccc125dce62e81bfc39e5a2e48bb3bff49c9130e58710bd2aebd99068a8e10",
+          "sha256": "b73cf3ed87ad57101b93bcf7d9739911850f8941f41101a1f604e7b4f591af1a",
+          "sha1": "8e8e9a3f91cb917bafb6cd2808b968e1b3688d36",
+          "md5": "4406471b0c5faaa891655277d9a90365"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 12,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "router-annotations-1.0.0.jar",
+          "url": "router-annotations-1.0.0.jar",
+          "size": 1131,
+          "sha512": "4f07385f3d5b19566d803d8fe960e5aabb2845245ae537a9bd178ba41cc342c04fccc125dce62e81bfc39e5a2e48bb3bff49c9130e58710bd2aebd99068a8e10",
+          "sha256": "b73cf3ed87ad57101b93bcf7d9739911850f8941f41101a1f604e7b4f591af1a",
+          "sha1": "8e8e9a3f91cb917bafb6cd2808b968e1b3688d36",
+          "md5": "4406471b0c5faaa891655277d9a90365"
+        }
+      ]
+    }
+  ]
+}
