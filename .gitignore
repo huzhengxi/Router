@@ -7,7 +7,12 @@
 .externalNativeBuild
 .cxx
 local.properties
-.idea
+/.idea
+/.gradle
 
 # Project exclude paths
 /buildSrc/build/
+/app/build
+/router-gradle-plugin/build
+/router-annotations/build
+/router-processor/build
